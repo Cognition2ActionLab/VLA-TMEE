@@ -75,21 +75,49 @@ Run the following scripts to start evaluation:
 ```
 
 
-## 2. 
+## 2. Few-shot, Imbalance, and Noise Setting
 
 ### 2.1 Training for LIBERO
 
-大体设置与balance基本一致，多加了
+The overall setup largely follows the balanced setting, with the following additional configurations:
 
 - The **ratio of few-shot** in [few-shot setting](../scripts/few-shot/libero/train): `few_shot_ratio`
-- The **ratio of imbalance** in [imbalance setting](../scripts/imbalance/libero/train): `few_shot_ratio`
+- The **ratio of imbalance** in [imbalance setting](../scripts/imbalance/libero/train): `imbalance_ratio`
+- The **image noise type** in [image noise setting](../scripts/image_noise/libero/train): `image_noise_type`
+- The **action noise type** in [action noise setting](../scripts/action_noise/libero/train): `action_noise_type`
+
+Run the following script to start training:
 
 ```bash
 # train baseline
 ./scripts/imbalance/few-shot/train/train_libero.sh [model_name] [libero_suite]      # few-shot
 ./scripts/imbalance/libero/train/train_libero.sh [model_name] [libero_suite]        # imbalance
+./scripts/image_noise/libero/train/train_libero.sh [model_name] [libero_suite]      # image noise
+./scripts/action_noise/libero/train/train_libero.sh [model_name] [libero_suite]     # action noise
 
 # train baseline with mee-based objects
-./scripts/imbalance/few-shot/train/train_libero_mee.sh [model_name] [libero_suite]  # few-shot
-./scripts/imbalance/libero/train/train_libero_mee.sh [model_name] [libero_suite]    # imbalance
+./scripts/imbalance/few-shot/train/train_libero_mee.sh [model_name] [libero_suite]      # few-shot
+./scripts/imbalance/libero/train/train_libero_mee.sh [model_name] [libero_suite]        # imbalance
+./scripts/image_noise/libero/train/train_libero_mee.sh [model_name] [libero_suite]      # image noise
+./scripts/action_noise/libero/train/train_libero_mee.sh [model_name] [libero_suite]     # action noise
+```
+
+### 2.1 Evaluation for LIBERO
+
+Run the following scripts to start evaluation:
+
+```bash
+# few-shot
+./scripts/few-shot/libero/eval/eval_libero.sh              # launch the evaluation job
+./scripts/few-shot/libero/eval/eval_libero_job.sh          # run evaluation directly
+
+# imbalance
+./scripts/imbalance/libero/eval/eval_libero.sh              # launch the evaluation job
+./scripts/imbalance/libero/eval/eval_libero_job.sh          # run evaluation directly
+
+# image noise
+./scripts/image_noise/libero/eval/eval_libero.sh
+
+# action
+./scripts/action_noise/libero/eval/eval_libero.sh
 ```
