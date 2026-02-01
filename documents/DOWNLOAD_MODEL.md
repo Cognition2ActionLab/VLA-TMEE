@@ -15,7 +15,7 @@ Alternatively, you can download the models locally using the following links:
 
 ## VLA-TMEE Model Downloading
 
-我们展示了在LIBERO上near balance设置下的结果及其权重：
+We report the results on LIBERO under near-balanced settings, together with the associated weighting schemes.
 
 | Method        | LIBERO-Spatial | LIBERO-Goal | LIBERO-Object | LIBERO-Long | Avg  | 🤗 HF Checkpoint |
 |---------------|----------------|-------------|---------------|-------------|------|-----------------|

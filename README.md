@@ -3,7 +3,7 @@
 [![Paper](https://img.shields.io/badge/Paper-arXiv-red.svg)]() [![Website](https://img.shields.io/badge/Website-GitHub%20Pages-blue.svg)]() [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 
-[Shuanghao Bai*](https://baishuanghao.github.io/), [Dakai Wang*](), [Cheng Chi](https://chicheng123.github.io/), [Wanqi Zhou](https://ellezwq.github.io/), [Jing Lyu](), [Xiaoguang Zhao](https://people.ucas.ac.cn/~zhaoxiaoguang?language=en), [Pengwei Wang](https://scholar.google.com/citations?hl=zh-CN&user=2xR6P5AAAAAJ), [Zhongyuan Wang](https://www.wangzhongyuan.com/), [Lei Xing](https://scholar.google.com/citations?user=TlfrTOkAAAAJ&hl=en), [Shanghang Zhang](https://pku-hmi-lab.github.io/HMI-Web/leader.html), [Badong Chen](https://gr.xjtu.edu.cn/web/chenbd/home)
+[Shuanghao Bai*](https://baishuanghao.github.io/), [Dakai Wang*](), [Cheng Chi*](https://chicheng123.github.io/), [Wanqi Zhou](https://ellezwq.github.io/), [Jing Lyu](), [Xiaoguang Zhao](https://people.ucas.ac.cn/~zhaoxiaoguang?language=en), [Pengwei Wang](https://scholar.google.com/citations?hl=zh-CN&user=2xR6P5AAAAAJ), [Zhongyuan Wang](https://www.wangzhongyuan.com/), [Lei Xing](https://scholar.google.com/citations?user=TlfrTOkAAAAJ&hl=en), [Shanghang Zhang](https://pku-hmi-lab.github.io/HMI-Web/leader.html), [Badong Chen](https://gr.xjtu.edu.cn/web/chenbd/home)
 
 
 ## 🔥 Key Features
