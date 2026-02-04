@@ -1,4 +1,4 @@
-# Reshaping Action Error Distributions for Reliable Vision-Language-Action Models
+# <img src="assets/logo.png" width="60" style="vertical-align: middle;"> Reshaping Action Error Distributions for Reliable Vision-Language-Action Models
 
 [![Paper](https://img.shields.io/badge/Paper-arXiv-red.svg)]() [![Website](https://img.shields.io/badge/Website-GitHub%20Pages-blue.svg)]() [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
@@ -51,6 +51,13 @@ If you find our work useful, please consider citing:
   author={Bai, Shuanghao and Wang, DaKai and Chi, Cheng and Zhou, Wanqi and Lyu, Jing and Zhao, Xiaoguang and Wang, Pengwei and Wang, Zhongyuan and Xing, Lei and Zhang, Shanghang and Chen, Badong},
   journal={arXiv preprint arXiv:},
   year={2026}
+}
+
+@article{bai2025rethinking,
+  title={Rethinking Latent Redundancy in Behavior Cloning: An Information Bottleneck Approach for Robot Manipulation},
+  author={Bai, Shuanghao and Zhou, Wanqi and Ding, Pengxiang and Zhao, Wei and Wang, Donglin and Chen, Badong},
+  journal={arXiv preprint arXiv:2502.02853},
+  year={2025}
 }
 ```
 
