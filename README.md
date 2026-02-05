@@ -49,7 +49,7 @@ If you find our work useful, please consider citing:
 @article{bai2026reshaping,
   title={Reshaping Action Error Distributions for Reliable Vision-Language-Action Models},
   author={Bai, Shuanghao and Wang, DaKai and Chi, Cheng and Zhou, Wanqi and Lyu, Jing and Zhao, Xiaoguang and Wang, Pengwei and Wang, Zhongyuan and Xing, Lei and Zhang, Shanghang and Chen, Badong},
-  journal={arXiv preprint arXiv:},
+  journal={arXiv preprint arXiv:2602.04228},
   year={2026}
 }
 
